@@ -1,8 +1,9 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { KeyboardProvider } from "react-native-keyboard-controller";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { StyleSheet } from "react-native-unistyles";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <KeyboardProvider>
           <View style={styles.container}>
-            <Text>Open up App.tsx to start working on your app!</Text>
+            <Text>Open up App.tsx to start working on your app!!!</Text>
             <StatusBar style="auto" />
           </View>
         </KeyboardProvider>

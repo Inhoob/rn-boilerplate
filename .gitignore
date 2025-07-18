@@ -33,6 +33,17 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Vscode
+.vscode/
+
 # typescript
 *.tsbuildinfo
-.yarn/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
