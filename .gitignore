@@ -1,49 +1,23 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
 node_modules/
-
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 .DS_Store
-*.pem
+*.tgz
+*.tar.gz
 
-# local env files
-.env*.local
+# Template files that should not be in the npm package
+template/node_modules/
+template/.expo/
+template/ios/build/
+template/ios/Pods/
+template/android/build/
+template/android/app/build/
+template/.yarn/*
+template/.pnp.*
 
-# Vscode
-.vscode/
-
-# typescript
-*.tsbuildinfo
-
-# Yarn
+# yarn
 .yarn/*
-!.yarn/patches
-!.yarn/plugins
 !.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+!.yarn/plugins
 .pnp.*
