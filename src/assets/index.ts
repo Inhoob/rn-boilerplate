@@ -1,1 +1,0 @@
-export { default as logo_react_native } from './logo_react_native.png';
